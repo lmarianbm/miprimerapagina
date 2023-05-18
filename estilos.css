@@ -1,0 +1,166 @@
+body { 
+    background-color: grey;
+    color:black;
+    justify-content: center;
+}
+h1 { 
+    color: white;
+    font-family: 'Gotic', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    border: 2px solid purple;
+    background-color: rgb(2, 2, 58);
+    margin-top: 30px;
+}
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+h2 {
+    
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.mi-id {
+    color: black;
+    font-size: 20px;
+    border: 1px solid brown;
+    padding: 10px;
+    margin-top: 150px;
+    background-color: white;
+}
+footer{
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        
+
+}
+
+#myForm{
+        color: white;
+        padding: 10px;
+        margin-top: 30px;
+        border: 2px solid purple;
+        background-color: rgb(2, 2, 58);
+    }
+
+.container-nav{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.brand {
+    display: flex;
+    align-items: center;
+}
+li>a{
+    padding: 8px 24px;
+
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.boton-menu-togg{
+    display: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    
+}
+.Video {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.column {
+    flex: 1;
+    padding: 10px;
+}
+.Imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+img{
+    max-width: 20%;
+    max-height: 20%;
+    
+}
+.ListServ {
+    text-align: center ;   
+    
+}
+@media (max-width: 768px){
+    .column{
+        flex:100%;
+    }
+.nav-links {
+    display: none;
+}
+
+.boton-menu-toggle {
+    display: block;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0 24px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-links.nav-links-responsive {
+position: absolute;
+display: flex;
+background-color: rgb(20,20,20,0.95);
+width: 100%;
+height: 100%;
+top: 70%;
+left: 0;
+flex-direction: column;
+padding-top: 200px;
+align-items: center;
+gap: 70px;
+font-size: 40px;
+
+}
+#myForm {
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    border: 5px solid brown;
+    background-color: rgb(2, 2, 58) ;
+}}
